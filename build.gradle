@@ -19,7 +19,7 @@ def allureVersion = "2.13.8",
     aspectjweaverVersion = "1.9.6",
     restAssuredVersion = "4.3.1",
     jacksonVer = "2.12.2",
-    assertjVer="3.19.0"
+    assertjVer = "3.19.0"
 
 
 allure {
@@ -53,7 +53,7 @@ dependencies {
             "org.junit.jupiter:junit-jupiter-params:${junitVersion}",
             "org.slf4j:slf4j-simple:${slf4jVersion}",
             "org.aeonbits.owner:owner:${ownerVersion}",
-           // "org.aspectj:aspectjweaver:${aspectjweaverVersion}",
+            // "org.aspectj:aspectjweaver:${aspectjweaverVersion}",
             "io.rest-assured:rest-assured:${restAssuredVersion}",
             "io.qameta.allure:allure-rest-assured:${allureVersion}",
             "com.fasterxml.jackson.core:jackson-databind:${jacksonVer}",

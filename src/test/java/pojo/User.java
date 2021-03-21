@@ -42,11 +42,11 @@ public class User {
         this.dataLastName = faker.name( ).lastName( );
         this.dataEmail = faker.internet( ).emailAddress( );
         this.dataAvatar = faker.avatar( ).image( );
-        this.job = faker.job().position();
-        this.password=faker.internet().password();
+        this.job = faker.job( ).position( );
+        this.password = faker.internet( ).password( );
 
-        this.supportUrl=faker.internet().url();
-        this.supportText=faker.lorem().sentence();
+        this.supportUrl = faker.internet( ).url( );
+        this.supportText = faker.lorem( ).sentence( );
     }
 
     @Override
@@ -68,7 +68,7 @@ public class User {
     }
 
     public void setEmail(String s) {
-        dataEmail=s;
+        dataEmail = s;
     }
 
     public String getPassword( ) {
@@ -76,7 +76,7 @@ public class User {
     }
 
     public void setPassword(String psw) {
-        password=psw;
+        password = psw;
     }
 
     public String getJob( ) {

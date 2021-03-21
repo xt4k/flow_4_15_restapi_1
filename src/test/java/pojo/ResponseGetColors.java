@@ -57,7 +57,7 @@ public class ResponseGetColors {
                 ", data=" + data.toString( ) +
                 ", page=" + page +
                 ", totalPages=" + totalPages +
-                ", support=" + support.toString() +
+                ", support=" + support.toString( ) +
                 '}';
     }
 }

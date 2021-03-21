@@ -30,7 +30,6 @@ public class RegressInTests {
     @Test
     @DisplayName("Test 01. Reqres.In API test for method POST: Create User")
     void addUser( ) {
-
         User user = new User( );
         step("Generated user:\n" + user.toString( ));
 
@@ -95,7 +94,7 @@ public class RegressInTests {
     @DisplayName("Test 04. Reqres.In API test for method POST: Failed Login")
     void failedLogin( ) {
         User user = new User( );
-        step("generated user:\n" + user.toString( ));
+        step("Generated user:\n" + user.toString( ));
 
         HashMap<String, String> login = new HashMap<>( );
         login.put("email", user.getEmail( ));
@@ -133,7 +132,6 @@ public class RegressInTests {
     @Test
     @DisplayName("Test 06. Reqres.In API test for method GET: Single Resource")
     void getResource( ) {
-
         given( )
                 .contentType(JSON)
                 .when( )
