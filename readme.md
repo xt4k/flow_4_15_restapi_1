@@ -1,1 +1,1 @@
-Readme info about project.
+Final version of initial Rest-API test project.
